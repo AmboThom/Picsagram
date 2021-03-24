@@ -9,8 +9,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Picsagram">
-        <activity android:name=".LogoutActivity"></activity>
+        android:theme="@style/Theme.Picsagram"
+        android:usesCleartextTraffic="true">
 
         <activity android:name=".MainActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
